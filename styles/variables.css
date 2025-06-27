@@ -1,1 +1,34 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter-Variable";
+  --font-accent: "PressStart2P-Regular";
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-size-main: 18px;
+  --content-width: clamp(371px, 100vw, 696px);
+  --dialog-width: clamp(341px, calc(341px + (100vw - 375px) * 0.1025), 357px);
+  --save-button-width: clamp(308px, 5vw + 290px, 335px);
+  --font-size-title: clamp(49px, 7vw, 65px);
+  --font-size-subtitle: clamp(14px, 3vw, 23px);
+  --card-gap: 27px;
+  --border-main: 2px solid black;
+  --background-color-main: white;
+  --background-gradient:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(#e7e7e7, #e7e7e7 1%, #1a1a1a 100%);
+  --label-shadow-color: white;
+  --heart-counter-color: black;
+  --heart-animation-color: red;
+}
