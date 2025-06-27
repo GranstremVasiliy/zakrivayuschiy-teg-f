@@ -1,1 +1,1 @@
-https://granstremvasiliy.github.io/zakrivayuschiy-teg-f/
+https://github.com/GranstremVasiliy/zakrivayuschiy-teg-f
