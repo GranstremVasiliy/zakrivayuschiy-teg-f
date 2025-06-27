@@ -181,10 +181,6 @@
   transition: border 0.3s;
 }
 
-.card__icon-button:focus-visible {
-  border-color: black;
-}
-
 .like-icon {
   margin: auto;
 }
