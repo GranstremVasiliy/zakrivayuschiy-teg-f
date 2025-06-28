@@ -50,7 +50,6 @@
 
 .header__title_main {
   font-size: var(--font-size-title);
-  letter-spacing: 4px;
 }
 
 .header__subtitle {
@@ -61,7 +60,7 @@
 .card_list {
   display: flex;
   flex-direction: column;
-  gap: 54px;
+  gap: 50px;
 }
 
 .card {
@@ -186,6 +185,7 @@
 
 .like-icon {
   margin: auto;
+  flex-shrink: 0;
 }
 
 .card__like-button {
@@ -287,17 +287,15 @@
     height: 323px;
   }
   .card__text_container {
-    padding: 25px 25px 0;
+    padding: 28px 25px 0;
   }
   .card_list {
-    gap: 51px;
+    gap: 52px;
   }
   .card__image_wrapper {
     margin-bottom: -5px;
   }
-  .header__title_main {
-    letter-spacing: normal;
-  }
+
   .text-label {
     inset-block-start: 22px;
     inset-inline-end: 12px;

@@ -5,14 +5,14 @@
   --font-weight-bold: 700;
   --font-weight-normal: 400;
   --font-size-main: 18px;
-  --content-width: clamp(371px, 100vw, 696px);
+  --content-width: clamp(375px, 100vw, 700px);
   --dialog-width: clamp(341px, calc(341px + (100vw - 375px) * 0.1025), 357px);
   --save-button-width: clamp(308px, 5vw + 290px, 335px);
   --font-size-title: clamp(49px, 7vw, 65px);
   --font-size-subtitle: clamp(14px, 3vw, 23px);
   --card-gap: 27px;
-  --border-main: 2px solid black;
-  --background-color-main: white;
+  --border-main: 2px solid #000000;
+  --background-color-main: #ffffff;
   --background-gradient:
     repeating-linear-gradient(
       to right,
@@ -28,7 +28,7 @@
       transparent 4px
     ),
     linear-gradient(#e7e7e7, #e7e7e7 1%, #1a1a1a 100%);
-  --label-shadow-color: white;
-  --heart-counter-color: black;
-  --heart-animation-color: red;
+  --label-shadow-color: #ffffff;
+  --heart-counter-color: #000000;
+  --heart-animation-color: #ff0000;
 }
