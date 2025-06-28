@@ -9,3 +9,79 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+.sparks {
+  opacity: 0;
+}
+
+.core {
+  transition: fill 0.3s 0.03s;
+}
+.main-body {
+  transition: fill 0.3s;
+}
+
+.card__icon-button:hover .core {
+  fill: var(--heart-counter-color);
+  transition: fill 0.3s;
+}
+.card__icon-button:hover .main-body {
+  fill: var(--heart-counter-color);
+  transition: 0.3s 0.05s;
+}
+
+.card__icon-button:active .core {
+  fill: var(--heart-animation-color);
+  transition: fill 0.3s;
+}
+
+.card__icon-button:active .main-body {
+  fill: var(--heart-animation-color);
+  transition: 0.3s 0.05s;
+}
+
+.card__icon-button .is-liked .core {
+  fill: var(--heart-animation-color);
+  transition: fill 0.3s;
+}
+
+.card__icon-button .is-liked .main-body {
+  fill: var(--heart-animation-color);
+  transition: fill 0.3s 0.05s;
+}
+
+.card__icon-button .is-liked .contour {
+  fill: var(--heart-animation-color);
+  transition: fill 0.3s 0.06s;
+}
+
+.contour {
+  transition: fill 0.1s linear;
+}
+
+@keyframes heart-is-liked {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes sparks {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.is-liked .heart-parts {
+  animation: heart-is-liked 0.3s ease-in 0.1s;
+  transform-origin: center;
+}
+
+.is-liked .sparks {
+  animation: sparks 0.3s ease-in 0.3s;
+}
